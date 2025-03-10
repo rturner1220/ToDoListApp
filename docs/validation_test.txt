@@ -1,0 +1,21 @@
+# Validation Testing for To-Do List App
+
+*  Test 1: Input = "Grocery Shopping" 
+   - Expected Output: Task added successfully
+   - Actual Result: Passed 
+
+*  Test 2: Input = "12345" (Invalid task with numbers)
+   - Expected Output: Error message ("Task should not contain numbers!")
+   - Actual Result: Passed 
+
+*  Test 3: Click "Delete Task" without selecting
+   - Expected Output: Error message ("Please select a task to delete!")
+   - Actual Result: Passed 
+
+*  Test 4: Click "Mark as Completed" without selecting
+   - Expected Output: Error message ("Please select a task to mark as completed!")
+   - Actual Result: Passed 
+
+*  Test 5: Click "Clear All Tasks"
+   - Expected Output: Task list should be empty
+   - Actual Result: Passed 
